@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>蒙昱铮 · 个人官网</title>
+    <meta name="description" content="绿色森林风·治愈清新·蒙昱铮的个人主页" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              forest: "#3A7D44",
+              moss: "#A4C3B2",
+              ink: "#2D3734",
+              fog: "#F8FAF9"
+            },
+            boxShadow: {
+              soft: "0 8px 20px rgba(58, 125, 68, 0.08)"
+            },
+            fontFamily: {
+              sans: ["Inter", "ui-sans-serif", "system-ui", "-apple-system", "Segoe UI", "Roboto", "Ubuntu", "Cantarell", "Noto Sans", "Helvetica Neue", "Arial", "sans-serif"]
+            }
+          }
+        }
+      };
+    </script>
+    <style>
+      :root {
+        color-scheme: light;
+      }
+      html, body {
+        background-color: #F8FAF9;
+      }
+    </style>
+  </head>
+  <body class="font-sans text-ink antialiased bg-fog">
+    <div class="min-h-screen">
+      <header class="w-full">
+        <div class="mx-auto max-w-5xl px-6 py-6 md:py-8">
+          <div class="flex items-center justify-between">
+            <div class="select-none">
+              <h1 class="text-2xl md:text-3xl font-medium tracking-wide text-ink">
+                蒙昱铮
+              </h1>
+            </div>
+            <div class="shrink-0">
+              <div class="w-20 h-20 rounded-full overflow-hidden ring-0 transition-transform duration-300 ease-out hover:scale-105">
+                <img
+                  src="images/自拍.jpg"
+                  alt="蒙昱铮头像"
+                  loading="lazy"
+                  class="w-full h-full object-cover align-middle"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section aria-label="关于我">
+          <div class="mx-auto max-w-5xl px-6">
+            <div class="rounded-[12px] bg-white/80 shadow-soft transition-all duration-300 ease-out hover:-translate-y-[2px] hover:shadow-lg">
+              <div class="h-1 rounded-t-[12px] bg-gradient-to-r from-moss to-forest"></div>
+              <div class="p-6 md:p-8">
+                <h2 class="text-xl md:text-2xl font-semibold text-forest">关于我</h2>
+                <p class="mt-4 leading-relaxed text-ink/90">
+                  03年广西女生，语调轻松亲切。喜欢把生活过得柔和自然，慢慢积累喜欢的事与人。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section aria-label="兴趣爱好" class="mt-8 md:mt-12">
+          <div class="mx-auto max-w-5xl px-6">
+            <div class="rounded-[12px] bg-white/80 shadow-soft transition-all duration-300 ease-out hover:-translate-y-[2px] hover:shadow-lg">
+              <div class="h-1 rounded-t-[12px] bg-gradient-to-r from-moss to-forest"></div>
+              <div class="p-6 md:p-8">
+                <h2 class="text-xl md:text-2xl font-semibold text-forest">兴趣爱好</h2>
+
+               <!-- 行：旅行 -->
+                <div class="mt-6 md:mt-8 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 items-center">
+                  <div class="order-1">
+                    <p class="text-base md:text-lg text-ink/90">
+                      旅行：把风景和故事装进行囊，遇见更广阔的自己。
+                    </p>
+                  </div>
+                  <div class="order-2 rounded-[12px] overflow-hidden">
+                    <div class="w-full h-48 md:h-56 lg:h-64">
+                      <img
+                        src="images/旅行.jpg"
+                        alt="旅行"
+                        loading="lazy"
+                        class="w-full h-full object-cover max-w-full"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+               <!-- 行：美食 -->
+                <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 items-center">
+                  <div class="order-1">
+                    <p class="text-base md:text-lg text-ink/90">
+                      美食：尝一口人间烟火，让味蕾和心情都被治愈。
+                    </p>
+                  </div>
+                  <div class="order-2 rounded-[12px] overflow-hidden">
+                    <div class="w-full h-48 md:h-56 lg:h-64">
+                      <img
+                        src="images/美食.jpg"
+                        alt="美食"
+                        loading="lazy"
+                        class="w-full h-full object-cover max-w-full"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+               <!-- 行：古着收藏 -->
+                <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 items-center">
+                  <div class="order-1">
+                    <p class="text-base md:text-lg text-ink/90">
+                      古着收藏：每件衣服都有温度与故事，慢慢收藏时光。
+                    </p>
+                  </div>
+                  <div class="order-2 rounded-[12px] overflow-hidden">
+                    <div class="w-full h-48 md:h-56 lg:h-64">
+                      <img
+                        src="images/古着.jpg"
+                        alt="古着收藏"
+                        loading="lazy"
+                        class="w-full h-full object-cover max-w-full"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section aria-label="年度计划" class="mt-8 md:mt-12 mb-12">
+          <div class="mx-auto max-w-5xl px-6">
+            <div class="rounded-[12px] bg-white/80 shadow-soft transition-all duration-300 ease-out hover:-translate-y-[2px] hover:shadow-lg">
+              <div class="h-1 rounded-t-[12px] bg-gradient-to-r from-moss to-forest"></div>
+              <div class="p-6 md:p-8">
+                <h2 class="text-xl md:text-2xl font-semibold text-forest">年度计划</h2>
+
+               <!-- 行：自由泳 -->
+                <div class="mt-6 md:mt-8 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 items-center">
+                  <div class="order-1">
+                    <p class="text-base md:text-lg text-ink/90">
+                      自由泳：五月份毕业结课
+                    </p>
+                  </div>
+                  <div class="order-2 rounded-[12px] overflow-hidden">
+                    <div class="w-full h-48 md:h-56 lg:h-64">
+                      <img
+                        src="images/游泳.jpg"
+                        alt="自由泳训练"
+                        loading="lazy"
+                        class="w-full h-full object-cover max-w-full"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+               <!-- 行：上肢力量训练 -->
+                <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 items-center">
+                  <div class="order-1">
+                    <p class="text-base md:text-lg text-ink/90">
+                      上肢力量训练：年底前3个自重引体
+                    </p>
+                  </div>
+                  <div class="order-2 rounded-[12px] overflow-hidden">
+                    <div class="w-full h-48 md:h-56 lg:h-64">
+                      <img
+                        src="images/健身.jpg"
+                        alt="上肢力量训练"
+                        loading="lazy"
+                        class="w-full h-full object-cover max-w-full"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="pb-8">
+        <div class="mx-auto max-w-5xl px-6">
+          <div class="text-center text-sm text-ink/60">
+            © 2026 蒙昱铮 · 森林风·治愈清新
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
